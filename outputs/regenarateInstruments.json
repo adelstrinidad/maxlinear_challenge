@@ -1,0 +1,40 @@
+[
+  {
+    "type": "instrument",
+    "name": "pdu1",
+    "id": 1,
+    "config": [
+      {
+        "computer1": {
+          "_id": 1,
+          "_type": "computer"
+        }
+      },
+      {
+        "device1": {
+          "_id": 1,
+          "_type": "device"
+        }
+      }
+    ]
+  },
+  {
+    "type": "instrument",
+    "name": "pdu2",
+    "id": 2,
+    "config": [
+      {
+        "instrument1": {
+          "_id": 2,
+          "_type": "computer"
+        }
+      },
+      {
+        "device2": {
+          "_id": 2,
+          "_type": "device"
+        }
+      }
+    ]
+  }
+]

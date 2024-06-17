@@ -1,0 +1,41 @@
+{
+  "type": "bench",
+  "name": "bench1",
+  "id": 1,
+  "config": [
+    {
+      "id": 1,
+      "pdu1": [
+        {
+          "computer1": {
+            "_id": 1,
+            "_type": "computer"
+          }
+        },
+        {
+          "device1": {
+            "_id": 1,
+            "_type": "device"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pdu2": [
+        {
+          "instrument1": {
+            "_id": 2,
+            "_type": "computer"
+          }
+        },
+        {
+          "device2": {
+            "_id": 2,
+            "_type": "device"
+          }
+        }
+      ]
+    }
+  ]
+}
